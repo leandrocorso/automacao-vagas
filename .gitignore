@@ -1,0 +1,10 @@
+node_modules/
+dist/
+browser-data/
+linkedin-auth.json
+vagas.db
+vagas.db-journal
+vagas.db-wal
+vagas.db-shm
+.env
+*.log

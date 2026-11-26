@@ -1,0 +1,37 @@
+{
+  "name": "automacao-vagas",
+  "version": "1.0.0",
+  "description": "Automação de Triagem e Candidatura no LinkedIn",
+  "main": "dist/db.js",
+  "scripts": {
+    "login": "tsx src/login.ts",
+    "coletar": "tsx src/coletar.ts",
+    "analisar": "tsx src/analisar.ts",
+    "email": "tsx src/email.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-leandro:leandrocorso/automacao-vagas.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "better-sqlite3": "^13.2.0",
+    "dotenv": "^18.0.10",
+    "marked": "^18.3.0",
+    "nodemailer": "^10.6.1",
+    "playwright": "^1.65.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.11",
+    "@types/nodemailer": "^8.0.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.2.0": true
+  }
+}
